@@ -1,0 +1,281 @@
+﻿*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+   
+}
+
+#wrapper{
+    width: 100%;
+    height: 500px;
+}
+
+header{
+    background: white;
+    padding-bottom: 10px;
+	padding-top:10px;
+}
+
+
+
+/*nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 16px 10px;
+    line-height: 50px;
+    color: white;
+    cursor: pointer;
+    position: relative;
+}
+
+
+
+nav {
+    width: 100%;
+    background: gray;
+    height: 50px;
+	text-align: left;
+
+}*/
+
+.menu {
+	text-align: center;
+	padding-top: 10px;
+    width:auto;
+	background:gray;
+	height: 50px;
+	margin-top: 0px;
+}
+ 
+.menu li {
+	text-align: center;
+    margin:0px;
+    list-style:none;
+    font-family:'Ek Mukta';
+}
+ 
+.menu a {
+    transition:all linear 0.15s;
+    color:#919191;
+	text-decoration:none;
+}
+ 
+.menu li:hover > a, .menu .current-item > a {
+    text-decoration:none;
+    color:#be5b70;
+}
+ 
+.menu .arrow {
+    font-size:11px;
+    line-height:0%;
+}
+ 
+/*----- css cho phần menu cha -----*/
+.menu > ul > li {
+    float:left;
+    display:inline-block;
+    position:relative;
+    font-size:19px;
+}
+ 
+.menu > ul > li > a {
+    padding:10px 40px;
+    display:inline-block;
+    color:white;
+}
+ 
+/*.menu > ul > li:hover > a, .menu > ul > .current-item > a {
+    background:#2e2728;
+}*/
+ 
+/*----css cho menu con----*/
+
+.menu li:hover .sub-menu {
+    z-index:1;
+    opacity:1;
+}
+
+.sub-menu {
+    width:160%;
+    padding:2px 0px;
+    position:absolute;
+    top:100%;
+    left:0px;
+    z-index:-1;
+    opacity:0;
+    transition:opacity linear 0.15s;
+    box-shadow:0px 2px 3px rgba(0,0,0,0.2);
+    background:#2e2728;
+}
+
+.sub-menu li {
+    display:block;
+    font-size:16px;
+	background: green;
+}
+ 
+.sub-menu li a {
+    padding:10px 30px;
+    display:block;
+}
+ 
+.sub-menu li a:hover, .sub-menu .current-item a {
+    background:#3e3436;
+}
+nav ul{
+    height: 100%;
+}
+
+nav ul li:hover{
+    background: green;
+}
+
+aside{
+    background-color: lightgray;
+    width: 30%;
+    height: 100%;
+    float: left;
+	overflow:scroll;
+}
+
+aside ul{
+    list-style: none;
+    text-align: left;
+    padding-left: 15px;
+}
+
+aside ul li{
+    padding-bottom: 5px;
+}
+
+aside ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+/*aside h2{
+    padding: 10px 0;
+}*/
+
+.content{
+    background-color: white;
+    width: 70%;
+    float: left;
+	margin-top: 10px;
+	padding-top: 10px;
+}
+
+section h1 {
+	height: auto;
+	width: auto;
+	float: left;
+	font-size:40px;
+	padding-left: 20px;
+	
+}
+
+section img.imagess {
+	width: 900px;
+	text-align: center;
+}
+
+section img.images-html{
+	float: left;
+	width:auto;
+	height: 150px;
+	padding-right:auto;
+	margin-right:auto;
+	margin-top: 40px;
+	padding-left: 50px;
+}
+a.rev {
+	border: solid 1px;
+	float: left;
+	text-align: center;
+	text-decoration: none;
+	height: 30px;
+	width: 90px;
+	background: #0BF732;
+	color: #F8FCFC;
+	font-size: 20px;
+	margin-left:20px;
+}
+
+a.next {
+	float: right;
+	border: solid 1px;
+	text-decoration: none;
+	text-align: center;
+	background: #0BF732;
+	height: 30px;
+	width: 90px;
+	color: #F8FCFC;
+	font-size: 20px;
+	margin-right: 20px;
+}
+
+section p {
+	padding-top: 10px;
+	margin-top:30px;
+	float: left;
+	padding-right: 10px;
+	margin-right:10px;
+}
+h6.sec{
+	padding-top: 20px;
+	float: left; 
+	font-size: 20px;
+	padding-left:20px;
+	strong: none;
+}
+footer{
+    float: left;
+    width: 100%;
+    height: 40px;
+    background-color: gray;
+    color: white;
+}
+
+footer strong{
+    line-height: 40px;
+}
+
+.form-group{
+    width: 250px;
+}
+
+.form-group label{
+    display: block;
+    text-align: left;
+    padding: 20px 0 5px 0;
+}
+
+.form-group input{
+    width: 100%;
+    height: 30px;
+}
+
+#enter-tutorial button{
+    margin-top: 20px;
+    width: 125px;
+    height: 35px;
+    border-radius: 100px;
+    border: 1px outset black;
+}
+
+#content h1{
+    padding-top: 10px;
+    font-size: 30px;
+}
+
+.submenu{
+    display: none;
+    color: white;
+    background-color: gray;
+}
+
+.submenu li{
+    display: inline-block;
+}

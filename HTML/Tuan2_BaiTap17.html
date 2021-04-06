@@ -1,0 +1,117 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Tuần 2 Bài 17</title>
+</head>
+<body bgcolor="orange">
+	<center><h1>Survey Form</h1></center>
+    <p>Video provides a powerful way to help you prove your point. When you click Online Video, you can paste in the embed code for the video you want to add. You can also type a keyword to search online for the video that best fits your document.</p>
+    <form action="#" method="post">
+        <ol type="1">
+            <li>
+                <label for="name">What is your name?</label><br />  
+                <input type="text" size="50" required/>
+            </li>
+            <li>
+                What is your date of birth ?<br />
+                <label for="month">Month </label>
+                <select id="month">
+                    <option>Tháng 1</option>
+                    <option>Tháng 2</option>
+                    <option>Tháng 3</option>
+                    <option>Tháng 4</option>
+                    <option>Tháng 5</option>
+                    <option>Tháng 6</option>
+                    <option>Tháng 7</option>
+                    <option>Tháng 8</option>
+                    <option>Tháng 9</option>
+                    <option>Tháng 10</option>
+                    <option>Tháng 11</option>
+                    <option>Tháng 12</option>
+                </select>
+                <label for="date">Date </label>
+                <select id="date">
+                    <option>1</option>
+                    <option>2</option>
+                    <option>3</option>
+                    <option>4</option>
+                    <option>5</option>
+                    <option>6</option>
+                    <option>7</option>
+                    <option>8</option>
+                    <option>9</option>
+                    <option>10</option>
+                    <option>11</option>
+                    <option>12</option>
+                    <option>13</option>
+                    <option>14</option>
+                    <option>15</option>
+                    <option>16</option>
+                    <option>17</option>
+                    <option>18</option>
+                    <option>19</option>
+                    <option>20</option>
+                    <option>21</option>
+                    <option>22</option>
+                    <option>23</option>
+                    <option>24</option>
+                    <option>25</option>
+                    <option>26</option>
+                    <option>27</option>
+                    <option>28</option>
+                    <option>29</option>
+                    <option>30</option>
+                    <option>31</option>
+                </select>
+
+                <label for="year">Year </label>
+                <input type="number" id="year" required />
+            </li>
+            <li>
+                <label for="address">What is your mailing address (if you would like to have a hard copy of our catalog sent to  you) ?</label><br />
+                <textarea id="address" rows="10" cols="50"></textarea>
+            </li>
+
+            <li>
+                <label for="email">What is your email address</label><br />
+                <input type="email" id="email" required />
+            </li>
+
+            <li>
+                <label for="viewed">Have you viewed our online product catalog?</label><br />
+                <input type="radio" id="viewed" name="view" checked/>Yes 
+                <input type="radio" name="view" />No <br />
+            </li>
+
+            <li>
+                <label>If so, what products, biside the one you are ordering, might you be interested in purchasing n the future</label><br />
+                <input type="checkbox" id="cb1" />
+                <label for="cb1">VCR</label><br />
+                <input type="checkbox" id="cb2" />
+                <label for="cb2">Big Screen TV</label><br />
+                <input type="checkbox" id="cb3" />
+                <label for="cb3">Audio</label><br />
+                <input type="checkbox" id="cb4" />
+                <label for="cb4">Video</label><br />
+                <input type="checkbox" id="cb5" />
+                <label for="cb5">Camera</label><br />
+                <input type="checkbox" id="cb5" />
+                <label for="cb5">Other</label>
+                <input type="text" placeholder="Please list"/>
+            </li>
+
+            <li>
+                <label for="question">Do you have any questions, comments or suggestion before proceeding to the order form</label><br />
+                <textarea id="question" placeholder="Your input" cols="50" rows="10"></textarea>
+            </li>
+        </ol>
+        <center>
+            <input type="submit" value="Send Form" />
+            <input type="reset" value="Clear Form" />
+        </center>
+        
+    </form>
+</body>
+</html>

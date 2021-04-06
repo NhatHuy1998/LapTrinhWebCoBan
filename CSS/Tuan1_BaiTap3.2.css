@@ -1,0 +1,15 @@
+﻿body
+{
+	background-color: #FF9900;
+	
+}
+
+.center {
+	text-align: center;
+	padding-top: 150px;
+}
+
+.right {
+	text-align: right;
+	padding-top: 150px;
+}

@@ -1,0 +1,11 @@
+﻿body
+{
+	background-color: lightblue;
+}
+p  
+{
+	margin: 0 auto;
+	width: 50%;
+	border: 2px solid red;
+	padding: 15px;
+}
